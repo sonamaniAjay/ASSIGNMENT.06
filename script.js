@@ -4,12 +4,20 @@ menuIcon.onClick=()=>{
     navlinks.classList.toggle('active')
 }
 let weatherLink=document.querySelector(".weather-link")
+let weatherSite=document.querySelector(".weather-site")
 weatherLink.addEventListener("click",()=>{
     window.open("https://github.com/sonamaniAjay/web_dev_project_tic_tac_toe")
 })
+weatherSite.addEventListener('click',()=>{
+    window.open("https://sonamaniajay.github.io//")
+})
 let tictactoeLink=document.querySelector(".tic-tac-toe-link")
+let tictactoeSite=document.querySelector(".tic-tac-toe-site")
 tictactoeLink.addEventListener('click',()=>{
     window.open("https://github.com/sonamaniAjay/web_dev_project_tic_tac_toe")
+})
+tictactoeSite.addEventListener('click',()=>{
+    window.open("https://sonamaniajay.github.io//")
 })
 let contact=document.querySelector(".contact-link")
 contact.addEventListener('click',(e)=>{
