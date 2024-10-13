@@ -13,11 +13,11 @@ weatherSite.addEventListener('click',()=>{
 })
 let tictactoeLink=document.querySelector(".tic-tac-toe-link")
 let tictactoeSite=document.querySelector(".tic-tac-toe-site")
-tictactoeLink.addEventListener('click',()=>{
-    window.open("https://github.com/sonamaniAjay/tic_tac_toe")
-})
 tictactoeSite.addEventListener('click',()=>{
     window.open("https://sonamaniajay.github.io/tic_tac_toe/")
+})
+tictactoeLink.addEventListener("click",()=>{
+    window.open("https://github.com/sonamaniAjay/tic_tac_toe")
 })
 let contact=document.querySelector(".contact-link")
 contact.addEventListener('click',(e)=>{
