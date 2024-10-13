@@ -6,18 +6,18 @@ menuIcon.onClick=()=>{
 let weatherLink=document.querySelector(".weather-link")
 let weatherSite=document.querySelector(".weather-site")
 weatherLink.addEventListener("click",()=>{
-    window.open("https://github.com/sonamaniAjay/web_dev_project_tic_tac_toe")
+    window.open("https://github.com/sonamaniAjay/weather")
 })
 weatherSite.addEventListener('click',()=>{
-    window.open("https://sonamaniajay.github.io//")
+    window.open("https://sonamaniajay.github.io/weather/")
 })
 let tictactoeLink=document.querySelector(".tic-tac-toe-link")
 let tictactoeSite=document.querySelector(".tic-tac-toe-site")
 tictactoeLink.addEventListener('click',()=>{
-    window.open("https://github.com/sonamaniAjay/web_dev_project_tic_tac_toe")
+    window.open("https://github.com/sonamaniAjay/tic_tac_toe")
 })
 tictactoeSite.addEventListener('click',()=>{
-    window.open("https://sonamaniajay.github.io//")
+    window.open("https://sonamaniajay.github.io/tic_tac_toe/")
 })
 let contact=document.querySelector(".contact-link")
 contact.addEventListener('click',(e)=>{
