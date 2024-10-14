@@ -339,6 +339,13 @@ section{
         border-radius: 3rem;
         display:none;
     }
+    .about-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width:100%;
+    }
     #menu-icon{
         cursor:pointer;
     }
@@ -353,9 +360,6 @@ section{
     header.logo{
         font-size: 1.5rem;
     }
-    .fa-circle-user{
-        font-size: 80vh;
-    }
     .input-box input{
         padding:0.5rem 3rem;
         width:80%;
@@ -365,3 +369,4 @@ section{
         font-size: 1.5rem;
     }
 }
+
