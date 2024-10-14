@@ -1,8 +1,29 @@
-const menuIcon=document.querySelector("#menu-icon")
-const navlinks=document.querySelector(".nav-links")
-menuIcon.onClick=()=>{
-    navlinks.classList.toggle('active')
-}
+const menuIcon = document.querySelector("#menu-icon")
+const navLinks = document.querySelector(".nav-links")
+let menuClicked = false
+
+menuIcon.addEventListener('click', (e) => {
+    e.stopPropagation()  
+    if (!menuClicked) {
+        navLinks.style.display = "block"
+        menuClicked = true
+    } else {
+        navLinks.style.display = "none"
+        menuClicked = false
+    }
+})
+
+window.addEventListener('click', () => {
+    if (menuClicked) {
+        navLinks.style.display = "none"
+        menuClicked = false
+    }
+})
+
+navLinks.addEventListener('click', (e) => {
+    e.stopPropagation()
+})
+
 let weatherLink=document.querySelector(".weather-link")
 let weatherSite=document.querySelector(".weather-site")
 weatherLink.addEventListener("click",()=>{
