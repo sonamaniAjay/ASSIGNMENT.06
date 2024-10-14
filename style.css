@@ -339,12 +339,12 @@ section{
         border-radius: 3rem;
         display:none;
     }
+    #menu-icon{
+        cursor:pointer;
+    }
     .nav-links li{
         margin-top: 1.5rem;
         padding: 1rem;
-    }
-    .nav-links:active{
-        display:block;
     }
     header{
         padding:1rem 5rem;
@@ -365,4 +365,3 @@ section{
         font-size: 1.5rem;
     }
 }
-
